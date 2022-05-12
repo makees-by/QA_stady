@@ -60,10 +60,8 @@ vim preference.xml
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 vim sklls.xml
  32. Сделать коммит в одну строку.
- git add .
-git commit -m "add preference.xml, sklls.xml"
  33. Отправить сразу 2 файла на внешний репозиторий.
-git push
+git add . && git commit -a -m "add preference.xml, sklls.xml" && git push
  34. На веб интерфейсе создать файл bug_report.xml.
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
@@ -94,10 +92,8 @@ vim preferences.txt
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 vim sklls.txt
  12. Сделать коммит в одну строку.
- git add .
-git commit -m "add preference.txt, sklls.txt"
  13. Отправить сразу 2 файла на внешний репозиторий.
-git push
+git add . && git commit -a -m "add preference.txt, sklls.txt" && git push
  14. На веб интерфейсе создать файл bug_report.txt.
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
