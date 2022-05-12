@@ -11,7 +11,7 @@ git clone
 touch new.json 
  7. Добавить файл под гит.
 git add new.json
- 8. Закоммитить файл.
+ 8. Закоммитить файл. 
 git commit -m add new.json
  9. Отправить файл на внешний GitHub репозиторий.
 git push
