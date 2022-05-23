@@ -36,8 +36,8 @@ pm.test("salary", function () {
         pm.expect(jsonData.start_qa_salary).to.eql(req_salary);
         pm.expect(jsonData.qa_salary_after_6_months).to.eql(req_salary*2);
         pm.expect(jsonData.qa_salary_after_12_months).to.eql(req_salary*2.7);
-        pm.expect(jsonData.qa_salary_after_1.5_year).to.eql(req_salary*3.3);
-        pm.expect(jsonData.qa_salary_after_3.5_years).to.eql(req_salary*3.8);
+        pm.expect(jsonData["qa_salary_after_1.5_year"]).to.eql(req_salary*3.3);
+        pm.expect(jsonData["qa_salary_after_3.5_years"]).to.eql(req_salary*3.8);
         
 
 });
